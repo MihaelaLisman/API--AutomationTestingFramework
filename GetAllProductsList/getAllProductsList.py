@@ -3,7 +3,7 @@ import requests
 api_url = "https://automationexercise.com/api/productsList"
 
 
-# verificarea status
+# verificare status
 def get_status():
     response = requests.get(api_url)
     return response.json()
